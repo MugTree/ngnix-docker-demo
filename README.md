@@ -22,6 +22,10 @@ Likely automated with a shell script or a build process using github actions or 
 
 # Notes
 
+#### Bash into container
+
+docker exec -it <container_hash> bash
+
 #### Ngnix reverse proxy with a series of containerised apps behind it
 
 https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-22-04
