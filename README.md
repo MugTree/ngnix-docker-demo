@@ -14,7 +14,9 @@
 
 Likely automated with a shell script or a build process using github actions or somesuch ...
 
-### Per app
+### Build process - per app
+
+![Alt text](build-process.jpg "Build process")
 
 1. Build image
 2. Push the image to a registry
