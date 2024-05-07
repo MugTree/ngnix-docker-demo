@@ -1,16 +1,20 @@
 # Ngnix docker .net apps basic demo
 
+- Just a demo as to how I might approach something like what you are after
 - Using digital ocean vps for demo purposes
 - Dockerhub for the images
 
 ## Outline and assumptions
 
-- Assumes we are using a hosted database for the apps
-- Containers. Each app is a two stage build - Build stage and runtime stage for simpler smaller final images.
+- Assumes we are using a hosted database for all the apps
+- App code is deliberately trivial no dependencies
+- Containers. Basic approach - each app is a two stage build - Build stage and runtime stage to reduce size etc..
 
 ## Basic publish update procedure per app...
 
-Likely automated with a shell script or a build process using github actions or somesuch..
+Likely automated with a shell script or a build process using github actions or somesuch ...
+
+### Per app
 
 1. Build image
 2. Push the image to a registry
